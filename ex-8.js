@@ -14,3 +14,7 @@ function myFunctions(){
         document.getElementById('print').innerHTML= voteable + " to vote";
     }
 }
+
+
+
+
