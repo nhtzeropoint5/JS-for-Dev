@@ -1,15 +1,15 @@
-////arrays
+//arrays
 
-// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 
-// fruits.forEach(function(value){ console.log(value);});
+fruits.forEach(function(value){ console.log(value);});
 
-// console.log(myFunction(fruits.forEach()));
+console.log(myFunction(fruits.forEach()));
 
-// function myFunction(value){
-//     return value;
-// }
+function myFunction(value){
+    return value;
+}
 
 const myObj = {
     name: 'john',
