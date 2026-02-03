@@ -5,7 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML dummy</title>
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+   <style>
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: items;
+      gap: 10px;
+      padding: 30px;
+      border: 1px solid black;
+      width: 30%;
+    }
+     label{
+      display: inline-block;
+      width: 70px;
+      color: red;
+    }
+    fieldset{
+    width: 90%;
+    }
+
+   
+
+   </style>
 </head>
 <body>
 
@@ -41,18 +63,40 @@
 <p class="intro">nini is a bitxh</p> -->
 
 
-
+<!-- 
 <img src="./images/my.jpg" alt="" id="bimg" height="450px" width="450px">
-
    <h1>Testing template strings</h1>
-   <button onclick="myFunctions2()">Click</button>
+    -->
+
+  <form action="" name="BobForm" >
+    <h2>Bobber Cat Form</h2>
+    <fieldset><legend>Bobber cat info</legend>
+    <label for="First-Name">Firstname</label>
+    <input type="text" name="val1" id="First-Name">
+    <br><br>
+    <label for="last_name">Lastname</label>
+    <input type="text" name="val2" id="last_name">
+    <br></fieldset>
+
+    <fieldset><legend>Bobber cat info</legend>
+    <label for="age">cat's age</label>
+    <input type="number" name="val3" id="age">
+    <br><br>
+    <label for="hobby">Hobby</label>
+    <input type="text" name="val4" id="hobby">
+    <br></fieldset>
+    
+  </form>
 
 
-   <p id="demo"></p>
 
 
 
+     <button onclick="ValidateForm()">Click</button>
 
-  <script src="ex-043.js"></script>
+<p id="demo">La Bobber Catto</p>
+
+
+  <script src="ex-045.js"></script>
 </body>
 </html>
