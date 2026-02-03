@@ -47,7 +47,7 @@ function longWord(str){
     return word;
 }
 
-const str = "I am learning Programming to become a programmer"
+// const str = "I am learning Programming to become a programmer"
 
 
 function small(num){
