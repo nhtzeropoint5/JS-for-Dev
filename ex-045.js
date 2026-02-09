@@ -13,9 +13,18 @@ for(let i=1; i<=4; i++){
     return false;
     }
 
+    if(i==3){
+        if(isNaN(y) || y<0 || y>30){
+            alert(`please enter a valid number`);
+        }
+    }
+
     values.push(y);
     text+=y+' ';
 }
+
+
+
 
 
 
