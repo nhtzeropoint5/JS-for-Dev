@@ -25,7 +25,21 @@
     width: 90%;
     } */
 
+#pcontainer{
+  max-width: 1140px;
+  /* margin: auto; */
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+}
    
+
+.post-card{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px gray;
+}
 
    </style>
 </head>
@@ -92,11 +106,29 @@
 
 
 
-     <button onclick="ValidateForm()">Click</button>
+     <button onclick="clickbaj()">Click</button>
 
-<p id="demo">La Bobber Catto</p>
+<!-- <p id="demo">La Bobber Catto</p> -->
 
 
-  <script src="ex-045.js"></script>
+<div id="pcontainer">
+  <div class="post-card">
+    <h1>title name</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, impedit.</p>
+  </div>
+    <div class="post-card">
+    <h1>title name</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, impedit.</p>
+  </div>
+    <div class="post-card">
+    <h1>title name</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, impedit.</p>
+  </div>
+</div>
+
+
+<ul id=" post-con"></ul>
+
+  <script src="ex-048.js"></script>
 </body>
 </html>
